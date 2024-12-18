@@ -1,0 +1,40 @@
+.home-page-card{
+    display: flex;
+    flex-direction: column;
+    width:1000px;
+    height: 600px;
+    background-image: url('../assets/oval-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-page-card h1{
+    margin: 0
+}
+
+
+
+.card-text{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    color: #6B886D;
+    width: 15em;
+    margin: 5em;
+}
+
+.home-page-buttons{
+    justify-content: flex-end;
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: 6em;
+    margin-top: 2em
+}
+
+.home-page-buttons button{
+ background-color: #C0E3BE;
+ color: black;
+ width: 250px;
+}
